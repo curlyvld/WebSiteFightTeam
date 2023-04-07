@@ -212,6 +212,7 @@ About
 .about__container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 300px;
 }
 .about__image{
   position: relative;
