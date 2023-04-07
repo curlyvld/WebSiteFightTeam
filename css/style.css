@@ -273,6 +273,7 @@ Trainers
 .trainers {
 }
 .trainers__container {
+  margin-bottom: 150px;
 }
 
 .trainers__title {
@@ -281,12 +282,18 @@ Trainers
 
 .trainers__main {
   display: flex;
+  position: relative;
   
 }
 .trainers__first-block {
   margin-right: 30px;
 }
+.trainers__first-block img{
+  position: relative;
+}
 .trainers__first-block__txt {
+  position: absolute;
+  top:90.5%;
 }
 .trainers__first-block__txt p:first-child{
   -webkit-text-fill-color: transparent;
@@ -301,11 +308,14 @@ Trainers
   text-transform: uppercase;
 }
 .trainers__second-block {
+ 
 }
 .trainers__second-block img{
-  max-width: 630px;
+  position: relative;
 }
 .trainers__second-block__sub {
+  position: absolute;
+  top:73%;
 }
 .trainers__second-block__sub p:first-child{
   -webkit-text-fill-color: transparent;
@@ -313,6 +323,8 @@ Trainers
   margin-right: 10px;
 }
 .trainers__second-block__txt {
+  position: absolute;
+  top:90%;
   max-width: 630px;
   font-weight: 500;
   font-size: 18px;
