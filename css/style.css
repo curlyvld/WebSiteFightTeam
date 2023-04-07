@@ -265,3 +265,56 @@ About
   padding-right: 79px;
   padding-left:79px ;
 }
+
+/*
+Trainers
+*/
+
+.trainers {
+}
+.trainers__container {
+}
+
+.trainers__title {
+  margin-bottom: 100px;
+}
+
+.trainers__main {
+  display: flex;
+  
+}
+.trainers__first-block {
+  margin-right: 30px;
+}
+.trainers__first-block__txt {
+}
+.trainers__first-block__txt p:first-child{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:  2px  #FFFFFF;
+  margin-right: 10px;
+}
+.txt {
+  display: flex;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.trainers__second-block {
+}
+.trainers__second-block img{
+  max-width: 630px;
+}
+.trainers__second-block__sub {
+}
+.trainers__second-block__sub p:first-child{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:  2px  #FFFFFF;
+  margin-right: 10px;
+}
+.trainers__second-block__txt {
+  max-width: 630px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
